@@ -5,8 +5,10 @@
 1. Перейдіть в налаштування вашого репозиторію на GitHub
 2. Перейдіть в розділ **Settings** → **Pages**
 3. У розділі **Source** виберіть:
-   - **Source**: `GitHub Actions`
+   - **Source**: `GitHub Actions` (НЕ "Deploy from a branch"!)
    - Збережіть зміни
+
+⚠️ **ВАЖЛИВО**: Якщо вибрано "Deploy from a branch", GitHub Pages буде показувати README.md замість додатку. Обов'язково виберіть "GitHub Actions"!
 
 ## Крок 2: Налаштування Secrets (опціонально)
 
