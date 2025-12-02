@@ -34,6 +34,17 @@ EXPO_PUBLIC_API_URL=https://your-backend.com/api
 }
 ```
 
+## Деплой на GitHub Pages
+
+Для публікації додатку на GitHub Pages, дивіться детальні інструкції в файлі [DEPLOY.md](./DEPLOY.md).
+
+Коротко:
+1. Налаштуйте GitHub Pages в Settings → Pages (Source: GitHub Actions)
+2. Зробіть push в гілку `main`
+3. Workflow автоматично збудує та задеплоїть додаток
+
+⚠️ **Важливо**: QR-сканер на веб може працювати обмежено через обмеження браузерів. Для повної функціональності використовуйте мобільні версії.
+
 ---
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
