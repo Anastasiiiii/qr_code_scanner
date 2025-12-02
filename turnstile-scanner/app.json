@@ -30,7 +30,8 @@
     "web": {
       "output": "static",
       "favicon": "./assets/images/favicon.png",
-      "bundler": "metro"
+      "bundler": "metro",
+      "baseUrl": "/qr_code_scanner"
     },
     "plugins": [
       "expo-router",
